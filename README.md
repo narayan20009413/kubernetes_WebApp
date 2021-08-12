@@ -11,8 +11,7 @@ Feature  -
 📌 Delete complete environment created. 
 📌 Delete specific resources given by user. 
 📌 Extra features related to k8s ( Optional) 
-
-📌 This app will help the user to run all the Kubernetes commands:
+📌 This app will help the user to run all the Kubernetes commands.
 
 "
 
