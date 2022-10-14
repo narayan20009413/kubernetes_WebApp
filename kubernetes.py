@@ -6,7 +6,7 @@ import cgi
 print("content-type: text/html")
 print()
 
-f=cgi.FieldStorage()
-cmd=f.getvalue("x")
-o=subprocess.getoutput("sudo "+ cmd)
-print(o)
+form=cgi.FieldStorage()
+cmd=form.getvalue("x")
+ouput=subprocess.getoutput("sudo "+ cmd)
+print(output)
